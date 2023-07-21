@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <title>
+            <%= locals.title %>
+        </title>
+    </head>
+    <body>
+        <h1>Hello, I am Practice page randering help of Ejs...!</h1>
+
+        <ul style="list-style-type:circle;">
+            <% for(let i=1; i<=10; i++) { %>
+                <li>
+                    <%= i * 2 %>
+                </li>
+            <%}%>
+        </ul>
+    </body>
+</html>

@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+#page-heading {
+    text-align: center;
+    margin-top: 25px;
+    color: gray;
+}
+
+div {
+    text-align: center;
+    /* margin: 0 auto; */
+    /* padding-bottom: 8px; */
+}
+
+ul li {
+    font-size: larger;
+    list-style: none;
+    text-align: center;
+    margin: 8px 15%;
+    /* height: 3rem; */
+}
+
+
+#data {
+    display: flex;
+    justify-content: space-between;
+    background: #a577c8;
+    color: rgb(252, 255, 255);
+    padding: 2px;
+}
+
+#data:hover {
+    background: #a577c8;
+    cursor: pointer;
+    box-shadow: 5px 5px 5px #5d5555;
+}
+
+
+
+p {
+    font-weight: bold;
+    margin: 0;
+    padding: 5px;
+}
+
+p:hover{
+    color: black;
+}
+
+a {
+    font-weight: bold;
+    margin: 0;
+    padding: 5px;
+    color: rgb(246, 238, 238);
+    background-color: red;
+}
+
+button {
+    cursor: pointer;
+}
+form {
+    margin: 5px 15%;
+    text-align: center;
+}
+form input{
+    padding: 3px;
+    /* border: none; */
+    color: #7e7676;
+}
+
+button{
+    padding: 3px;
+}
+
+
+
+
+
+
+
+
+
+/* 
+let contactIndex = contactList.findIndex(
+        (contact) => (contact.phone = phone)
+    );
+    if (contactIndex != -1) {
+        contactList.splice(contactIndex, 1);
+    } */
